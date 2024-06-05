@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation Styles */
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+/* Main Content Styles */
+#content {
+    padding: 2em;
+}
+
+.main-section {
+    margin-bottom: 2em;
+}
+
+/* List Styles */
+.custom-unordered-list {
+    list-style-image: url('path/to/your/image.png');
+}
+
+.custom-ordered-list {
+    list-style-type: upper-roman;
+}
+
+/* Extra Credit CSS */
+p span {
+    font-style: italic;
+}
+
+p span:last-of-type {
+    text-decoration: underline;
+}
+
+.special-span {
+    font-style: normal;
+    color: red;
+}
